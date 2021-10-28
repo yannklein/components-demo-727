@@ -1,0 +1,38 @@
+.banner {
+  color: rgb(250,250,250);
+  padding: 80px;
+  background-size: cover;
+  background-position: 50% 50%;
+  text-shadow: 0 0 8px rgba(0,0,0,0.7);
+  margin-bottom: 32px;
+}
+
+/* DON'T DO THAT!!! */
+/* h1 {
+
+} */
+
+/* an h1 element that has a class banner
+h1.banner {
+
+} */
+
+/* an h1 element that is inside 
+another element that has a class banner
+.banner h1 {
+
+} */
+
+/* an h1 element that is the direct child of 
+another element that has a class banner
+.banner > h1 {
+
+} */
+
+.banner h1, .banner p {
+  margin: 0;
+}
+
+.banner a {
+  margin-top: 24px;
+}
